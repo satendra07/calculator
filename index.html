@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cal_style.css">
+
+    <title>Calculator-satendra-pal</title>
+    <style></style>
+    
+    
+
+</head>
+
+<body>
+    <table id="table" class="cal_body-dark">
+        <tr>
+
+            <td class="input-td" colspan="4">
+              
+                <input type="text" id="display" name="display" readonly class="class_input" value="0">
+            </td>
+        </tr>
+        <tr>
+            <td ><button onclick="darkLight()">D/L</button></td>
+            <td ><button onclick="cls()">AC</button></td>
+            <td colspan=""><button onclick="del()">DEL</button></td>
+            <!-- <td ><button onclick="per('%')">%</button></td> -->
+            
+            <td><button onclick="store('/')">/</button></td>
+
+        </tr>
+        <tr>
+            <td><button onclick="store('7')">7</button></td>
+            <td><button onclick="store('8')">8</button></td>
+            <td><button onclick="store('9')">9</button></td>
+            <td><button onclick="store('*')">X</button></td>
+        </tr>
+        <tr>
+            <td><button onclick="store('4')">4</button></td>
+            <td><button onclick="store('5')">5</button></td>
+            <td><button onclick="store('6')">6</button></td>
+            <td><button onclick="store('-')">-</button></td>
+        </tr>
+        <tr>
+            <td><button onclick="store('1')">1</button></td>
+            <td><button onclick="store('2')">2</button></td>
+            <td><button onclick="store('3')">3</button></td>
+            <td><button onclick="store('+')">+</button></td>
+        </tr>
+        <tr>
+            <td><button onclick="store('0')">0</button></td>
+            <td><button onclick="store('00')">00</button></td>
+            <td><button onclick="store('.')">.</button></td>
+            <td><button onclick="calcuLate()">=</button></td>
+
+
+        </tr>
+    </table>
+</body>
+<script type= "text/javascript" src="cal_index.js"></script>
+
+</html>
